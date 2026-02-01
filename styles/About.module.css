@@ -1,0 +1,140 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+}
+
+.pageTitle {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: var(--text-primary);
+}
+
+.section {
+  margin-bottom: 3rem;
+}
+
+.section h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: var(--primary-color);
+  border-bottom: 2px solid var(--border-color);
+  padding-bottom: 0.5rem;
+}
+
+.summaryText {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: var(--text-secondary);
+  text-align: justify;
+}
+
+.skillsCategory {
+  margin-bottom: 2rem;
+}
+
+.skillsCategory h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.techTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.techTag {
+  padding: 0.5rem 1rem;
+  background: #f3f4f6;
+  border: 1px solid var(--border-color);
+  border-radius: 2rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.techTag:hover {
+  background: var(--primary-color);
+  color: white;
+  border-color: var(--primary-color);
+}
+
+.educationCard {
+  background: var(--bg-secondary);
+  padding: 2rem;
+  border-radius: 0.75rem;
+  border-left: 4px solid var(--primary-color);
+}
+
+.educationCard h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.institution {
+  color: var(--text-secondary);
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+.period, .cgpa {
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+}
+
+.achievementsList, .certificationsList {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.achievementItem, .certItem {
+  padding: 1.5rem;
+  background: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  border-left: 3px solid var(--secondary-color);
+}
+
+.achievementItem h3, .certItem h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.achievementItem p, .certItem p {
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+}
+
+.projectDetail {
+  font-style: italic;
+  margin-top: 0.25rem;
+}
+
+.workAuth {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 2rem;
+  border-radius: 0.75rem;
+  color: white;
+}
+
+.workAuth h2 {
+  color: white;
+  border-bottom-color: rgba(255, 255, 255, 0.3);
+}
+
+.workAuth p {
+  font-size: 1.125rem;
+  line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+  .pageTitle {
+    font-size: 2rem;
+  }
+}

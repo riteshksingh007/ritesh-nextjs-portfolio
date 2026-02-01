@@ -1,0 +1,197 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.headerContent {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  opacity: 0.95;
+  margin-bottom: 2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.backLink {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  background: rgba(255, 255, 255, 0.2);
+  border: 2px solid white;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.backLink:hover {
+  background: white;
+  color: #667eea;
+  transform: translateY(-2px);
+}
+
+.main {
+  flex: 1;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 1.5rem;
+  width: 100%;
+}
+
+.projectsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 2rem;
+}
+
+.projectCard {
+  background: white;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid transparent;
+}
+
+.projectCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+  border-color: #667eea;
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 1rem;
+}
+
+.projectName {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin: 0;
+}
+
+.platforms {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.platformBadge {
+  background: #667eea;
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 1rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.projectTagline {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #10b981;
+  margin-bottom: 0.75rem;
+}
+
+.projectDescription {
+  color: #6b7280;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  flex: 1;
+}
+
+.techStack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.techTag {
+  background: #f3f4f6;
+  color: #4b5563;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.impactPreview {
+  background: #f0fdf4;
+  border-left: 3px solid #10b981;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  font-size: 0.875rem;
+  color: #065f46;
+  border-radius: 0.375rem;
+}
+
+.cardFooter {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+  border-top: 1px solid #e5e7eb;
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.company {
+  font-weight: 600;
+}
+
+.year {
+  font-style: italic;
+}
+
+.footer {
+  background: #1f2937;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0.5rem 0;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .projectsGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .cardHeader {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}

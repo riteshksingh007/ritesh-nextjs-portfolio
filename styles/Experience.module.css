@@ -1,0 +1,185 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+}
+
+.pageTitle {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.timeline {
+  position: relative;
+  padding: 2rem 0;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 30px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: var(--border-color);
+}
+
+.timelineItem {
+  position: relative;
+  padding-left: 80px;
+  margin-bottom: 3rem;
+}
+
+.timelineMarker {
+  position: absolute;
+  left: 22px;
+  top: 0;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--primary-color);
+  border: 3px solid white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.featured .timelineMarker {
+  width: 24px;
+  height: 24px;
+  left: 19px;
+  background: var(--secondary-color);
+}
+
+.timelineContent {
+  background: white;
+  padding: 2rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.featured .timelineContent {
+  border: 2px solid var(--secondary-color);
+}
+
+.jobTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}
+
+.companyName {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.client {
+  color: var(--text-secondary);
+}
+
+.jobMeta {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  margin-bottom: 1.5rem;
+}
+
+.location::before {
+  content: '📍 ';
+}
+
+.period::before {
+  content: '📅 ';
+}
+
+.currentBadge {
+  background: var(--secondary-color);
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 1rem;
+  font-weight: 600;
+}
+
+.highlightsList {
+  list-style: none;
+  margin-bottom: 1.5rem;
+}
+
+.highlightsList li {
+  padding-left: 1.5rem;
+  margin-bottom: 0.75rem;
+  position: relative;
+}
+
+.highlightsList li::before {
+  content: '▹';
+  position: absolute;
+  left: 0;
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+.keyProjects {
+  background: var(--bg-secondary);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+}
+
+.keyProjects h4 {
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+}
+
+.projectItem {
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.projectItem:last-child {
+  border-bottom: none;
+}
+
+.projectDesc {
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+}
+
+.platforms {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.platformBadge {
+  background: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 1rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+@media (max-width: 768px) {
+  .timeline::before {
+    left: 15px;
+  }
+  
+  .timelineItem {
+    padding-left: 50px;
+  }
+  
+  .timelineMarker {
+    left: 7px;
+  }
+  
+  .featured .timelineMarker {
+    left: 4px;
+  }
+}
