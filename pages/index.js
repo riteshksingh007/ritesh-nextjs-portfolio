@@ -36,8 +36,8 @@ export default function Home({ profile }) {
                 <span className={styles.statLabel}>Years Experience</span>
               </div>
               <div className={styles.stat}>
-                <span className={styles.statNumber}>5M+</span>
-                <span className={styles.statLabel}>Users Impacted</span>
+                <span className={styles.statNumber}>10L+</span>
+                <span className={styles.statLabel}>Downloads</span>
               </div>
               <div className={styles.stat}>
                 <span className={styles.statNumber}>40×</span>
@@ -54,7 +54,7 @@ export default function Home({ profile }) {
               <div className={styles.highlightCard}>
                 <div className={styles.highlightIcon}>🚀</div>
                 <h3>Founding Engineer</h3>
-                <p>Built Freedo Rentals from 0 → 1 → scale, reaching 5M+ users</p>
+                <p>Built Freedo Rentals from 0 → 1 → scale, 10 lacs downloads live in 15+ cities</p>
               </div>
               <div className={styles.highlightCard}>
                 <div className={styles.highlightIcon}>💼</div>

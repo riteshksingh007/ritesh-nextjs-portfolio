@@ -265,7 +265,7 @@ Social media previews for:
 
 ### Homepage (`/`)
 - Hero with name and title
-- Stats (7+ years, 5M users, 40× growth)
+- Stats (7+ years, 10L downloads, 40× growth)
 - Highlights cards
 - Skills preview
 - CTAs to Contact and Projects

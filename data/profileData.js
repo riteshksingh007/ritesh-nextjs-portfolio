@@ -9,7 +9,7 @@ export const profileData = {
   github: "https://github.com/riteshksingh007",
   workAuth: "Young Professional Scheme Visa from UK Government.",
   
-  summary: "Senior Software Engineer (React Native / React.js) with ~7 years of experience in architecting and scaling high-impact mobile and web applications. Former Founding Engineer at Freedo Rentals, where I built the product from 0 → 1 → scale, enabling 5M+ users and driving 40× revenue growth through performance-centric engineering and rapid iteration. Delivered production-grade solutions for global clients including Netball Australia and TapAppCloud UK. Strong ownership mindset with experience in system architecture, Animations, Agile leadership, sprint planning, and mentoring cross-functional teams. Known for aligning technology with business goals, improving user experience, and consistently delivering scalable, high-quality code.",
+  summary: "Senior Software Engineer (React Native / React.js) with ~7 years of experience in architecting and scaling high-impact mobile and web applications. Former Founding Engineer at Freedo Rentals, where I built the product from 0 → 1 → scale, achieving 10 lacs downloads live in 15+ cities and driving 40× revenue growth through performance-centric engineering and rapid iteration. Delivered production-grade solutions for global clients including Netball Australia and TapAppCloud UK. Strong ownership mindset with experience in system architecture, Animations, Agile leadership, sprint planning, and mentoring cross-functional teams. Known for aligning technology with business goals, improving user experience, and consistently delivering scalable, high-quality code.",
 
   skills: {
     frontend: [
@@ -73,7 +73,7 @@ export const profileData = {
       period: "Feb 2022 - Aug 2025",
       featured: true,
       highlights: [
-        "Founding Engineer for Freedo Rentals and Freedo Champion Partner App – Led the greenfield development and architecture of both mobile and web platforms from scratch, scaling them to 5M+ users in 3 years and driving a 40X revenue growth from ₹5L/month to ₹2 Cr/month, with successful deployments on Android and iOS.",
+        "Founding Engineer for Freedo Rentals and Freedo Champion Partner App – Led the greenfield development and architecture of both mobile and web platforms from scratch, achieving 10 lacs downloads live in 15+ cities and driving a 40X revenue growth from ₹5L/month to ₹2 Cr/month in 3 years, with successful deployments on Android and iOS.",
         "Maintained a crash-free rate of 99.98%, ensuring a seamless user experience across mobile and web platforms.",
         "Designed and implemented a chatbot to replicate the booking journey across WhatsApp, the customer website, and the mobile app, streamlining the reservation process.",
         "Played a key role in market expansion, launching two new business models (Subscription & Aggregator) and successfully expanding operations to 15+ cities.",
@@ -221,7 +221,7 @@ export const projects = [
     slug: "freedo-rentals",
     name: "Freedo Rentals",
     tagline: "India's Leading Two-Wheeler Rental Platform",
-    description: "Built from scratch as Founding Engineer, scaling to 5M+ users and achieving 40× revenue growth (₹5L to ₹2Cr/month) in 3 years.",
+    description: "Built from scratch as Founding Engineer, achieving 10 lacs downloads live in 15+ cities and 40× revenue growth (₹5L to ₹2Cr/month) in 3 years.",
     longDescription: `Freedo Rentals is a comprehensive two-wheeler rental platform that revolutionized urban mobility in India. As the Founding Engineer, I architected and built the entire mobile and web ecosystem from the ground up.
 
 The platform enables users to rent scooters and bikes on-demand with a seamless booking experience, integrated payment gateways, and real-time vehicle tracking. The system handles complex operations including fleet management, dynamic pricing, KYC verification, and multi-city operations.
@@ -241,7 +241,7 @@ Key technical achievements include maintaining a 99.98% crash-free rate, impleme
       "Subscription and aggregator business models"
     ],
     impact: [
-      "5M+ active users",
+      "10 lacs downloads",
       "40× revenue growth in 3 years",
       "99.98% crash-free rate",
       "15+ cities operational",
