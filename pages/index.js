@@ -18,7 +18,9 @@ export default function Home({ profile }) {
             <h1 className={styles.heroTitle}>{profile.name}</h1>
             <p className={styles.heroSubtitle}>{profile.title}</p>
             <p className={styles.heroDescription}>{profile.subtitle}</p>
-            
+            <p className={styles.heroLocation}>📍 {profile.location}</p>
+            <p className={styles.heroVisa}>{profile.workAuth}</p>
+
             <div className={styles.heroCta}>
               <Link href="/contact" className={styles.btnPrimary}>
                 Get In Touch

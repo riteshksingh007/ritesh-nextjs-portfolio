@@ -1,13 +1,13 @@
 export const profileData = {
-  name: "Ritesh Kumar Singh",
+  name: "Ritesh K Singh",
   title: "Senior Software Engineer - React Native & React.js Developer",
   subtitle: "Founding Engineer Experience in Building Products from 0→1→Scale",
-  location: "United Kingdom 🇬🇧",
+  location: "Manchester, UK 🇬🇧",
   email: "riteshksingh07@gmail.com",
   phone: "+44 (0) 7917 073808",
   linkedin: "https://linkedin.com/in/ritesh-k-singh",
   github: "https://github.com/riteshksingh007",
-  workAuth: "Youth Mobility Visa (UK) — Eligible to work full-time until Aug 2027. No sponsorship required at present.",
+  workAuth: "Young Professional Scheme Visa from UK Government — Eligible to work full-time until Aug 2027. No sponsorship required at present.",
   
   summary: "Senior Software Engineer (React Native / React.js) with ~7 years of experience in architecting and scaling high-impact mobile and web applications. Former Founding Engineer at Freedo Rentals, where I built the product from 0 → 1 → scale, enabling 5M+ users and driving 40× revenue growth through performance-centric engineering and rapid iteration. Delivered production-grade solutions for global clients including Netball Australia and TapAppCloud UK. Strong ownership mindset with experience in system architecture, Animations, Agile leadership, sprint planning, and mentoring cross-functional teams. Known for aligning technology with business goals, improving user experience, and consistently delivering scalable, high-quality code.",
 
