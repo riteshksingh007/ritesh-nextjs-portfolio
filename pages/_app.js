@@ -12,7 +12,7 @@ export default function App({ Component, pageProps }) {
       <nav className="navbar">
         <div className="nav-container">
           <Link href="/" className="nav-logo">
-            <span className="logo-text">Ritesh Singh</span>
+            <span className="logo-text">Ritesh K Singh</span>
             <span className="logo-subtitle">Senior Software Engineer</span>
           </Link>
           
